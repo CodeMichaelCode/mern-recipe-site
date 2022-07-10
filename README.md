@@ -2,7 +2,7 @@
 
 I used the full MERN stack to create this app. I currently host the API on Heroku and Frontend on Netlify. RecipeBookmark uses a DB for user validation and JWT for authentication to keep track of users. RecipeBookmark takes advatage of this by assigning post to the correct users and creating a personal recipe section for each user. Having this functionality was especially important because now a user can preview there favorite recipes with a glance. Each recipe card provides more information than a traditional bookmark would. On top of that this app can do all CRUD operations. Allowing users to edit post they previously created.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** [recipebookmark.netlify.app](https://recipebookmark.netlify.app/)
 
 ![RecipeBookmark  Homepage](https://recipe-bookmarks.s3.amazonaws.com/recipebookmarksnapshot.jpg)
 
@@ -26,14 +26,14 @@ I learned a lot while creating this project. The most important lessons were opt
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**Tom's Tavern Trove:**
-Live Link - https://www.codemichaelcode.com/toms-tavern-trove/
-GitHub Repo - https://github.com/CodeMichaelCode/LocalBrewApiProject
+**Tom's Tavern Trove:**  
+Live Link - https://www.codemichaelcode.com/toms-tavern-trove/  
+GitHub Repo - https://github.com/CodeMichaelCode/LocalBrewApiProject  
 
-**Plastic Money Bank:**
-Live Link - https://www.codemichaelcode.com/plastic-money-bank/
-GitHub Repo - https://github.com/CodeMichaelCode/Banking-LP
+**Plastic Money Bank:**  
+Live Link - https://www.codemichaelcode.com/plastic-money-bank/  
+GitHub Repo - https://github.com/CodeMichaelCode/Banking-LP  
 
-**Person Portfolio:**
-Live Link - https://www.codemichaelcode.com/plastic-money-bank/
-GitHub Repo - https://github.com/CodeMichaelCode/Portofolio2022
+**Person Portfolio:**  
+Live Link - https://www.codemichaelcode.com/plastic-money-bank/  
+GitHub Repo - https://github.com/CodeMichaelCode/Portofolio2022  
