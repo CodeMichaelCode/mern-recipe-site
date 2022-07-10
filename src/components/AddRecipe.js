@@ -36,8 +36,8 @@ const AddRecipe = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(inputs);
-    sendRequest().then((data) => console.log(data));
+    sendRequest();
+    // .then((data) => console.log(data));
   };
   return (
     <StyledBGImage>

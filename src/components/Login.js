@@ -29,8 +29,6 @@ const Login = () => {
       }
     );
     const data = await res.data;
-    console.log(data);
-
     return data;
   };
 
