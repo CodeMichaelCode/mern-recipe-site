@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# RecipeBookmark
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I used the full MERN stack to create this app. I currently host the API on Heroku and Frontend on Netlify. RecipeBookmark uses a DB for user validation and JWT for authentication to keep track of users. RecipeBookmark takes advatage of this by assigning post to the correct users and creating a personal recipe section for each user. Having this functionality was especially important because now a user can preview there favorite recipes with a glance. Each recipe card provides more information than a traditional bookmark would. On top of that this app can do all CRUD operations. Allowing users to edit post they previously created.
 
-## Available Scripts
+**Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-In the project directory, you can run:
+![RecipeBookmark  Homepage](https://recipe-bookmarks.s3.amazonaws.com/recipebookmarksnapshot.jpg)
 
-### `npm start`
+## How It's Made:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Tech used:** JSX, Style Components, JavaScript, React, Redux, NodeJs, JSON Web Token and MongoDB.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Optimizations
 
-### `npm test`
+-Use multer to allow users to upload images to the AWS S3 Bucket I created for this site
+-Optimize the edit form to retain information about the post being edited. (Currently flushing this out with the useForm hook)
+-Create an alternative method to add post like a chat bot that ask the users questions
+-Build on the like a post system
+-Create a section to link to the full recipe with directions so If a user decides to make the recipe they can go to the accredited page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Lessons Learned:
 
-### `npm run build`
+I learned a lot while creating this project. The most important lessons were optimization and organization. Some struggles I ran into while creating this project were updating the axios request URLs to the new Herkou URL for my API. If I used context or tradtional prop drilling I could have updated the URL in one place. I also learned a lot more about JWT. As much as I enjoyed learning about JWT I would use session id's for my next MERN project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Examples:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Take a look at these couple examples that I have in my own portfolio:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Tom's Tavern Trove:**
+Live Link - https://www.codemichaelcode.com/toms-tavern-trove/
+GitHub Repo - https://github.com/CodeMichaelCode/LocalBrewApiProject
 
-### `npm run eject`
+**Plastic Money Bank:**
+Live Link - https://www.codemichaelcode.com/plastic-money-bank/
+GitHub Repo - https://github.com/CodeMichaelCode/Banking-LP
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Person Portfolio:**
+Live Link - https://www.codemichaelcode.com/plastic-money-bank/
+GitHub Repo - https://github.com/CodeMichaelCode/Portofolio2022
