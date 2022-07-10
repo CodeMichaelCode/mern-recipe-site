@@ -27,13 +27,13 @@ I learned a lot while creating this project. The most important lessons were opt
 Take a look at these couple examples that I have in my own portfolio:
 
 **Tom's Tavern Trove:**
-Live Link - https://www.codemichaelcode.com/toms-tavern-trove/
-GitHub Repo - https://github.com/CodeMichaelCode/LocalBrewApiProject
+Live Link - https://www.codemichaelcode.com/toms-tavern-trove/  
+GitHub Repo - https://github.com/CodeMichaelCode/LocalBrewApiProject  
 
 **Plastic Money Bank:**
-Live Link - https://www.codemichaelcode.com/plastic-money-bank/
-GitHub Repo - https://github.com/CodeMichaelCode/Banking-LP
+Live Link - https://www.codemichaelcode.com/plastic-money-bank/  
+GitHub Repo - https://github.com/CodeMichaelCode/Banking-LP  
 
 **Person Portfolio:**
-Live Link - https://www.codemichaelcode.com/plastic-money-bank/
-GitHub Repo - https://github.com/CodeMichaelCode/Portofolio2022
+Live Link - https://www.codemichaelcode.com/plastic-money-bank/  
+GitHub Repo - https://github.com/CodeMichaelCode/Portofolio2022  
