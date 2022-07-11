@@ -38,8 +38,8 @@ const Signup = () => {
   return (
     <StyledAuth onSubmit={handleSubmit}>
       <h2>Signup</h2>
-      <label htmlFor="fullname">Full Name</label>
-      <input type="text" name="fullname" required onChange={handleChange} />
+      <label htmlFor="name">Name</label>
+      <input type="text" name="name" required onChange={handleChange} />
       <label htmlFor="email">Email</label>
       <input type="email" name="email" required onChange={handleChange} />
       <label htmlFor="password">Password</label>
