@@ -33,7 +33,7 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    sendRequest().then(() => navigate("/"));
+    sendRequest().then(() => navigate("/login"));
   };
   return (
     <StyledAuth onSubmit={handleSubmit}>
